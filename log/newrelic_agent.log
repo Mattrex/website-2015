@@ -1,0 +1,45 @@
+# Logfile created on 2015-07-25 16:45:33 -0400 by logger.rb/47272
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Starting the New Relic agent in "development" environment.
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/25/15 16:45:33 -0400 mht.local (56278)] WARN : No configuration file found. Working directory = /Users/bci22/Sites/perso/website-2015
+[07/25/15 16:45:33 -0400 mht.local (56278)] WARN : Looked in these locations (based on defaults): /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/.newrelic/newrelic.yml, /Users/bci22/newrelic.yml
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Environment: development
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : No known dispatcher detected.
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Application: development
+[07/25/15 16:45:33 -0400 mht.local (56278)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Installing Net instrumentation
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Installing deferred Rack instrumentation
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Installing Rack::Builder middleware instrumentation
+[07/25/15 16:45:33 -0400 mht.local (56278)] INFO : Finished instrumentation
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Starting the New Relic agent in "development" environment.
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/25/15 17:16:34 -0400 mht.local (63399)] WARN : No configuration file found. Working directory = /Users/bci22/Sites/perso/website-2015
+[07/25/15 17:16:34 -0400 mht.local (63399)] WARN : Looked in these locations (based on defaults): /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/.newrelic/newrelic.yml, /Users/bci22/newrelic.yml
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Environment: development
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : No known dispatcher detected.
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Application: development
+[07/25/15 17:16:34 -0400 mht.local (63399)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Installing Net instrumentation
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Installing deferred Rack instrumentation
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Installing Rack::Builder middleware instrumentation
+[07/25/15 17:16:34 -0400 mht.local (63399)] INFO : Finished instrumentation
+[07/25/15 17:16:42 -0400 mht.local (63399)] INFO : Doing deferred dependency-detection before Rack startup
+[07/25/15 17:16:43 -0400 mht.local (63399)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/25/15 17:16:43 -0400 mht.local (63399)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/25/15 17:18:29 -0400 mht.local (63399)] INFO : Starting Agent shutdown
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Starting the New Relic agent in "development" environment.
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/25/15 17:18:33 -0400 mht.local (64045)] WARN : No configuration file found. Working directory = /Users/bci22/Sites/perso/website-2015
+[07/25/15 17:18:33 -0400 mht.local (64045)] WARN : Looked in these locations (based on defaults): /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/Sites/perso/website-2015/config/newrelic.yml, /Users/bci22/Sites/perso/website-2015/newrelic.yml, /Users/bci22/.newrelic/newrelic.yml, /Users/bci22/newrelic.yml
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Environment: development
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : No known dispatcher detected.
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Application: development
+[07/25/15 17:18:33 -0400 mht.local (64045)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Installing Net instrumentation
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Installing deferred Rack instrumentation
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Installing Rack::Builder middleware instrumentation
+[07/25/15 17:18:33 -0400 mht.local (64045)] INFO : Finished instrumentation
+[07/25/15 17:18:38 -0400 mht.local (64045)] INFO : Doing deferred dependency-detection before Rack startup
+[07/25/15 17:18:39 -0400 mht.local (64045)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/25/15 17:18:39 -0400 mht.local (64045)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/25/15 17:18:53 -0400 mht.local (64045)] INFO : Starting Agent shutdown

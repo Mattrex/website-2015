@@ -1,0 +1,10 @@
+@mixin grayscale($params, $webkitParams) {
+  filter: grayscale($params);
+  -webkit-filter: grayscale($params);
+  -moz-filter: grayscale($params);
+  -ms-filter: grayscale($params);
+  -o-filter: grayscale($params);
+  filter: url('grayscale.svg#greyscale');
+  filter: gray;
+  -webkit-filter: grayscale($webkitParams);
+}

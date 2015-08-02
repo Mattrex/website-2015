@@ -1,0 +1,19 @@
+#contact
+  h3 = t('menu.contact')
+  h4 = t('contact.we_work_together')
+
+  i.fa.fa-linkedin
+  i.fa.fa-facebook
+
+  form
+    .field
+      label for='name'
+      input#name type='text'
+    .field
+      label for='subjet'
+      input#subjet type='text'
+    .field
+      label for='message'
+      textarea#message
+    .action
+      input type='submit' value="#{t('contact.send')}"

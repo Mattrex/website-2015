@@ -1,0 +1,32 @@
+html
+  background-color: $black
+  font-family: $open_sans
+
+  p, strong, em, span, h1, h2, h3, h4, label
+    margin: 0
+    padding: 0
+    color: $light_gray
+    font-weight: normal
+
+  .circle
+    width: 247px
+    height: 247px
+    border-radius: 50%
+    font-family: $marvel
+    text-transform: uppercase
+    position: relative
+    span
+      @include center(xy)
+      position: absolute
+
+    &.home
+      background-color: $green
+
+    &.project
+      background-color: $orange
+
+    &.about-me
+      background-color: $grape
+
+    &.contact
+      background-color: $blue

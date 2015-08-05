@@ -1,0 +1,36 @@
+---
+fr:
+  a11y:
+    main_menu: Main menu
+    go_to_menu: Go to main meun
+    go_to_content: Go to content
+    open_in_new_tab: <span class="visuallyhidden">This link will open in a new tab</span>
+
+  home:
+    name: Marie-Hélène Tremblay
+    title: Web developper
+
+  menu:
+    home: Home
+    portfolio: Projects
+    about_me: About me
+    contact: Contact
+
+  about_me:
+    back_end: Back-End
+    front_end: Front-End
+    management: Management
+    learning: Learning
+    description: Description goes there
+    3_stars: three stars on five
+    4_stars: four stars on five
+    5_stars: five stars on five
+    balance: Image d'une balance. Elle représente l'image de ma quête d'équilibre entre la programmation et l'intégration.
+    finger: "Image d'un pouce. Votre projet entre mes mains, il ne peut que réussir."
+
+  contact:
+    we_work_together: Do we work together?
+    contact_me: Write me en email
+    send: Send!
+    facebook: <span class="visuallyhidden">Visit my <span lang="en">Facebook</span> profile </span>
+    linkedin: <span class="visuallyhidden">Visit my <span lang="en">Linkedin</span> profile </span>

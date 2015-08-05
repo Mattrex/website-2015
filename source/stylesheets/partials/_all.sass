@@ -1,23 +1,30 @@
 html
   background-color: $black
   font-family: $open_sans
-
   p, strong, em, span, h1, h2, h3, h4, label
     margin: 0
     padding: 0
     color: $light_gray
     font-weight: normal
 
-  .circle
-    width: 247px
-    height: 247px
+  .circle-wrapper
+    width: 147px
+    height: 147px
     border-radius: 50%
     font-family: $marvel
     text-transform: uppercase
     position: relative
-    span
-      @include center(xy)
-      position: absolute
+    margin: 20px
+    .circle
+      width: 120px
+      border: 2px solid $black
+      span
+        @include center(xy)
+        position: absolute
+        color: $black
+        font-size: 30px
+        width: 120px
+        text-align: center
 
     &.home
       background-color: $green
@@ -30,3 +37,48 @@ html
 
     &.contact
       background-color: $blue
+
+  #home, #contact, #project, #about-me
+    height: 768px
+
+  #menu
+    position: fixed
+    @include center(y)
+    right: 0
+
+  #home
+    position: relative
+    .title
+      position: absolute
+      @include center(xy)
+      width: 100%
+    h1
+      font-family: $marvel
+      font-size: 97px
+      text-align: center
+      text-transform: uppercase
+      letter-spacing: -1.4px
+
+    h2
+      font-size: 34px
+      letter-spacing: 1px
+      font-weight: 300
+      text-align: center
+
+  #project, #about-me, #contact
+    h3
+      font-size: 84px
+      letter-spacing: 5px
+      font-family: $marvel
+      text-transform: uppercase
+
+  #project
+    h3
+      color: $orange
+  #about-me
+    h3
+      color: $grape
+
+  #contact
+    h3
+      color: $blue
